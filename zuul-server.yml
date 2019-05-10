@@ -1,0 +1,9 @@
+server:
+  port: 8802
+  
+zuul:
+  ignoredServices: '*'
+  routes:
+    program:
+      path: /program/**
+      url:  program
