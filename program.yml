@@ -1,2 +1,4 @@
 server:
   port: 9900
+
+message: Hello World Program!
